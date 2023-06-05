@@ -1,0 +1,165 @@
+   1  cd C
+    2  pwd
+    3  cd c/
+    4  cd Documents
+    5  pwd
+    6  ls
+    7  cd Calucard
+    8  cd
+    9  cd
+   10  ls
+   11  cd desktop
+   12  ls
+   13  cd 
+   14  cd DH
+   15  cd DH
+   16  ls -r
+   17  cd Desktop
+   18  cd DH
+   19  mkdir Peliculas
+   20  cd Peliculas
+   21  mkdir Infantiles Accion Terror Comedia Romanticas
+   22  cd Infantiles
+   23  touch intenzamente.txt el\juego\del\miedo.xls Rapido\y\furioso.pdf titanic.jpg
+   24  cd ../Accion
+   25  touch Smooth\criminal.txt Diario\de\un\pasion.js El\hexorcista.xls cars.jpg
+   26  cd ../Terror
+   27  touch La\dama\y\el\bagavundo.png to\antes\de\ti.xls Que\paso\ayer.pdf We\will\rock\you.js
+   28  cd ../Comedia
+   29  touch Madagaskar.js orgullo\y\prejuicio.txt IT.xls Mision\imposible.png
+   30  cd ../Romanticas
+   31  touch Pocahontas.jpg Annabelle.js Los\vengadores.js La\mascara.js
+   32  ls
+   33  cd ..
+   34  ls
+   35  ls -r
+   36  ls -R
+   37  cd ..
+   38  mkdir -p Romanticas/Prueba
+   39  mkdir ../Accion/Prueba2
+   40  cd Peliculas/Romanticas
+   41  mkdir ../Accion/Prueba2
+   42  cd ..
+   43  cd ..
+   44  LS -R
+   45  cd Peliculas/Intenzamente
+   46  cd Peliculas
+   47  cd Infantiles
+   48  cd ..
+   49  mv Infantiles/El\juego\del\miedo.xls Terror/
+   50  mv Infantiles/Rapido\y\furioso.pdf Accion/
+   51  mv Infantiles/titanic.jpg Romanticas/
+   52  mv Accion/Diario\de\una\pasion.js Romanticas/
+   53  mv Accion/Diario\de\una\pasion.js Romanticas/
+   54  mv Accion/Diario\de\un\pasion.js Romanticas/
+   55  mv Accion/El\exhorcista.xls Terror/
+   56  mv Accion/El\hexorcista.xls Terror/
+   57  rm Accion/Smooth\criminal.txt
+   58  mv Accion/Cars.jpg Infantiles
+   59  mv Terror/La\dama\y\el\bagavundo.png Infantiles/
+   60  mv Terror/to\antes\de\ti.xls Romanticas
+   61  mv Terror/Que\paso\ayer.pdf Comedia/
+   62  rm Terror/We\will\rock\you.js
+   63  mv Comedia/Madagascar.js Infantiles/
+   64  mv Comedia/Madagaskar.js Infantiles/
+   65  mv Comedia/Orgullo\y\prejuicio.txt Romanticas/
+   66  mv Comedia/
+   67  mv Comedia/IT.xls Terror/
+   68  mv Terror/Mision\imposible.png Accion/
+   69  mv Comedia/Mision\imposible.png Accion/
+   70  mv Romanticas/Pocahontas.jpg Infantiles/
+   71  mv Romanticas/Annabelle.js Terror/
+   72  mv Romanticas/Los\vengadores.js Accion/
+   73  mv Romanticas/La\mascara.js Comedia/
+   74  ls -R
+   75  cd ..
+   76  cd E/
+   77  cd ..
+   78  cd e/
+   79  cd e
+   80  ls
+   81  cd 
+   82  ls
+   83  cd 
+   84  cd..
+   85  cd e:/
+   86  ls
+   87  cd intro/
+   88  mkdir Ecommerce
+   89  cd Ecommerce
+   90  touch app.js
+   91  touch config.js
+   92  mkdir db
+   93  git init
+   94  git add
+   95  git add.
+   96  git add .
+   97  git commit -m "Primer Commit"
+   98  git config --global user.email "camilogomez1014@hotmail.com"
+   99  git commit -m "Primer Commit"
+  100  cd db/
+  101  touch producto_db.js
+  102  touch carrito_db.js
+  103  cd..
+  104  cd ..
+  105  git commit -m "Guardando lo importante"
+  106  git add .
+  107  git commit -m "Guardando lo importante"
+  108  git commit -m "Guardando una parte del proyecto"
+  109  git add .
+  110  git commit -m "Guardando una parte del proyecto"
+  111  cd db
+  112  rm producto_db.js
+  113  git restore .
+  114  rm ../config.js
+  115  git add .
+  116  git commit -m "Sacando la configuracion"
+  117  cd..
+  118  cd
+  119  ls
+  120  cd/
+  121  cd ../
+  122  cd ../
+  123  cd ../
+  124  cd e/
+  125  cd intro/
+  126  ls
+  127  mkdir 06052023-Camilo-Gomez
+  128  cd 06052023-Camilo-Gomez
+  129  git init
+  130  git remote add origin https://github.com/CamiloGz001/06052023-Camilo-Gomez
+  131  touch comandos.txt
+  132  touch main.js
+  133  touch index.html
+  134  git add .
+  135  git commit -m "Primer commit: Agregados archivos comandos.txt, main.js e index.html"
+  136  git push origin master
+  137  git branch feature01
+  138  git checkout feature01
+  139  mkdir Terminal
+  140  cd Terminal
+  141  touch resumen.txt
+  142  cd ..
+  143  mkdir Hardware
+  144  cd Hardware
+  145  touch resumen.txt
+  146  cd ..
+  147  git status
+  148  git add .
+  149  git commit -m "Agregada la estructura de carpetas y archivos en la rama feature01"
+  150  git push origin feature01
+  151  git branch feature02 feature01
+  152  git checkout feature02
+  153  git status
+  154  git add .
+  155  git commit -m "Agregados comandos en Terminal/resumen.txt y partes internas en Hardware/resumen.txt"
+  156  git push origin feature02
+  157  git checkout main
+  158  git branch
+  159  git checkout -b master
+  160  git checkout -b main
+  161  git mv comandos.txt comandosUtilizados.txt
+  162  git status
+  163  git commit -m "Renombrado archivo comandos.txt a comandosUtilizados.txt y agregados comandos utilizados en el examen"
+  164  git push origin main
+  165  history > historial.txt
